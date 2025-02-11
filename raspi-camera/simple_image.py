@@ -30,12 +30,14 @@ def capture_image(camera, directory, filename):
         )  # Create the directory if it doesn't exist. ディレクトリが存在しない場合は作成します。
 
     filepath = os.path.join(directory, filename)
-    camera.start_preview()
+    camera.start_preview(
+        Preview.NULL
+    )  # Specify preview type. プレビュータイプを指定します。
+    camera.start()  # Start the camera. カメラを起動します。
     time.sleep(
         2
     )  # Allow the camera to adjust to lighting conditions. カメラが照明条件に適応するために2秒待ちます。
-    camera.capture(filepath)
-    camera.stop_preview()
+    camera.capture_file(filepath)
     print(f"Image saved to {filepath}")  # 画像が保存されたことを通知します。
 
 
@@ -49,6 +51,7 @@ def main():
         capture_image(camera, "pictures", "image.jpg")
     finally:
         camera.stop()  # Ensure the camera is properly closed. カメラが適切に閉じられるようにします。
+        camera.stop_preview()  # Stop the preview. プレビューを停止します。
 
 
 if __name__ == "__main__":
