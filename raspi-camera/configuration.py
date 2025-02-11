@@ -51,7 +51,7 @@ def capture_image(camera, directory, filename):
 
     filepath = os.path.join(directory, filename)
     camera.start_preview(
-        Preview.QTGL
+        Preview.NULL
     )  # Start the preview window. プレビューウィンドウを開始します。
     camera.start()  # Start the camera. カメラを起動します。
     time.sleep(
