@@ -1,5 +1,5 @@
 import time
-from picamera import PiCamera
+from picamera2 import PiCamera
 import os
 
 
