@@ -28,7 +28,6 @@ def initialize_camera():
             "Sharpness": 1.0,  # Range: 0.0 to 2.0, default is 1.0
             "ExposureTime": 20000,  # In microseconds
             "AwbMode": "Incandescent",  # Auto White Balance mode
-            "Effect": "Negative",  # Apply a negative effect
         }
     )
 
