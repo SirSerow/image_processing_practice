@@ -48,7 +48,7 @@ def record_video(picam2, directory, filename, duration):
     )  # Set encoder with specified bitrate. 指定されたビットレートでエンコーダーを設定します。
 
     picam2.start_preview(
-        Preview.QTGL
+        Preview.NULL
     )  # Start the preview window. プレビューウィンドウを開始します。
     picam2.start_recording(
         encoder, filepath
