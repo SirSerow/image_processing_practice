@@ -1,5 +1,5 @@
 import time
-from picamera2 import PiCamera
+from picamera2 import Picamera2, Preview  # Fixed import
 import os
 
 
@@ -8,8 +8,10 @@ def initialize_camera():
     Initialize the PiCamera instance.
     PiCamera インスタンスを初期化します。
     """
-    camera = PiCamera()
-    return camera
+    picam2 = Picamera2()
+    config = picam2.create_preview_configuration()
+    picam2.configure(config)
+    return picam2
 
 
 def capture_image(camera, directory, filename):
@@ -46,7 +48,7 @@ def main():
     try:
         capture_image(camera, "pictures", "image.jpg")
     finally:
-        camera.close()  # Ensure the camera is properly closed. カメラが適切に閉じられるようにします。
+        camera.stop()  # Ensure the camera is properly closed. カメラが適切に閉じられるようにします。
 
 
 if __name__ == "__main__":
