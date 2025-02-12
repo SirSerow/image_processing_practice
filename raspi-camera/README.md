@@ -87,6 +87,42 @@ Raspberry Pi カメラの動作を理解するために、いくつかのサン�
 これらのサンプルは、各種設定が撮影結果にどのような影響を与えるかを実際に確認するのに役立ちます。
 - **異なる画像ソース:** 低解像度、RAW、メインカメラストリームなど、さまざまなソースから画像をキャプチャする方法を示すサンプル。
 
+
+### Running the Examples / サンプルの実行
+ Before running the examples, clone the repository and navigate to the `image_processing_practice` directory. Then, run the Python scripts using the following commands / サンプルを実行する前に、リポジトリをクローンして `image_processing_practice` ディレクトリに移動します。次に、以下のコマンドを使用して Python スクリプトを実行します。
+
+ **Clonning the repository / リポジトリのクローン**
+
+```bash
+git clone https://github.com/SirSerow/image_processing_practice.git
+cd image_processing_practice
+```
+
+**Running simple image example / 単純な画像の例を実行**
+
+```bash
+python3 raspi-camera/simple_image.py
+``` 
+
+**Running adjustable settings example / 調整可能な設定の例を実行**
+
+```bash
+python3 raspi-camera/configuration.py
+```
+
+**Running video capture example / 動画の記録の例を実行**
+
+```bash
+python3 raspi-camera/video.py
+```
+
+**Running different image sources example / 異なる画像ソースの例を実行**
+
+```bash
+python3 raspi-camera/image_sources.py
+```
+
+
 ---
 
 ## Problems and Exercises / 課題と演習
