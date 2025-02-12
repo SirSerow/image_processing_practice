@@ -201,4 +201,5 @@ pyrightconfig.json
 
 #ignore pictures folder
 pictures/
+videos/
 myenv/
