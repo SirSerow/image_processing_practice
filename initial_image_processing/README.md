@@ -18,6 +18,27 @@
 3. **Practice Task: Resizing an Image and Saving It Using OpenCV**  
    **演習課題: OpenCVを使用した画像のリサイズと保存**
 
+
+---
+
+### Environment Setup / 環境設定
+
+This excersise is using notebook, so before running the code you need to setup the environment and run the the notebook server / この演習はノートブックを使用しているため、コードを実行する前に環境を設定し、ノートブックサーバーを実行する必要があります。
+
+1. **Start python virtual environment / Python仮想環境を起動する**  
+   ```bash
+   source myenv/bin/activate
+   ```
+
+2. **Start Jupyter Notebook Server / Jupyter Notebookサーバーを起動する**  
+   ```bash
+    jupyter notebook
+    ```
+3. **Open the notebook file in the browser / ブラウザでノートブックファイルを開く**
+   Server address: [http://campi:8888/](http://campi:8888/)
+
+
+
 ---
 
 ## 1. Opening, Resizing, and Saving Images Using Pillow  
