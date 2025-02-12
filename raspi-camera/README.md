@@ -56,6 +56,7 @@ When capturing images with the Raspberry Pi Camera, you have control over variou
 - **Exposure Settings:** Options such as shutter speed, ISO, and exposure mode help manage the light entering the camera, which is crucial for different environments.
 - **White Balance and Image Effects:** Modify the color balance and apply effects to enhance the overall image quality.
 Understanding these settings is key to tailoring the camera’s output to the needs of your project.
+- **Saturation and Sharpness:** Adjust the saturation and sharpness of the image to enhance the overall quality.
 
 **日本語:**  
 Raspberry Pi カメラで画像を撮影する際、最終的な出力に影響を与えるさまざまなパラメータを制御できます：
@@ -64,6 +65,7 @@ Raspberry Pi カメラで画像を撮影する際、最終的な出力に影響�
 - **露出設定:** シャッタースピード、ISO、露出モードなどの設定により、カメラに入る光の量を管理し、さまざまな環境での撮影に対応します。
 - **ホワイトバランスと画像効果:** 色のバランスを調整したり、各種エフェクトを適用することで、画像全体の品質を向上させます。
 これらの設定を理解することが、プロジェクトのニーズに合わせたカメラ出力を実現するために重要です。
+- **彩度とシャープネス:** 画像の彩度とシャープネスを調整して、全体的な品質を向上させます。
 
 ---
 
@@ -75,6 +77,7 @@ To better grasp how the Raspberry Pi Camera works, several example projects are 
 - **Adjustable Settings:** Examples where you can experiment with changing resolution, brightness, contrast, and exposure settings.
 - **Video Capture:** An example showing how to record video and experiment with video-specific settings.
 These examples help illustrate how different configurations affect the captured images and allow you to see the practical impact of each setting.
+- **Different Image Sources**: Examples that show how to capture images from different sources like low resolution, raw and main camera stream.
 
 **日本語:**  
 Raspberry Pi カメラの動作を理解するために、いくつかのサンプルプロジェクトが用意されています：
@@ -82,6 +85,7 @@ Raspberry Pi カメラの動作を理解するために、いくつかのサン�
 - **設定の調整:** 解像度、明るさ、コントラスト、露出設定などを変更し、その効果を実験できるサンプル。
 - **動画撮影:** 動画の記録方法と、動画特有の設定を実験するサンプル。
 これらのサンプルは、各種設定が撮影結果にどのような影響を与えるかを実際に確認するのに役立ちます。
+- **異なる画像ソース:** 低解像度、RAW、メインカメラストリームなど、さまざまなソースから画像をキャプチャする方法を示すサンプル。
 
 ---
 

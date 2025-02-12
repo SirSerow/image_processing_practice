@@ -6,6 +6,18 @@ Python と Raspberry Pi を用いた画像処理の教育シリーズへよう�
 
 ---
 
+## How to clone this repository / このリポジトリをクローンする方法
+
+This is an open repository that you can clone to your local machine to access the course materials. Before cloning the repository, ensure you have Git installed on your system and you have a GitHub account.
+これはオープンリポジトリで、ローカルマシンにクローンしてコース教材にアクセスすることができます。リポジトリをクローンする前に、システムに Git がインストールされていて、GitHub のアカウントを持っていることを確認してください。
+### Steps to clone the repository / リポジトリをクローンする手順:
+1. Open the terminal on your local machine (Raspberry Pi). / ローカルマシン（Raspberry Pi）でターミナルを開く。
+2. Change the current working directory to the location where you want the cloned directory. / クローンされたディレクトリを配置したい場所に、現在の作業ディレクトリを変更する。
+3. Run the following command / 以下のコマンドを実行する:
+```bash
+git clone https://github.com/SirSerow/image_processing_practice.git
+```
+
 ## What is Raspberry Pi? / ラズベリーパイとは？
 
 The Raspberry Pi is a compact, affordable single-board computer developed by the Raspberry Pi Foundation.  
@@ -83,7 +95,8 @@ Several Python libraries facilitate image processing tasks:
 
 - **Pillow (PIL):**  
   An image processing library for opening, manipulating, and saving images.  
-  画像の読み込み、操作、保存が可能な画像処理ライブラリ。
+  画像の読み込み、操作、保存が可能な画像処理ライブラリ。 
+  [Read Pillow official documentation](https://pillow.readthedocs.io/en/stable/)
 
 - **Scikit-Image:**  
   Built on NumPy and SciPy, it provides a collection of algorithms for segmentation, color manipulation, and more.  
@@ -93,6 +106,7 @@ Several Python libraries facilitate image processing tasks:
 - **NumPy:**  
   A fundamental package for numerical computation, crucial for handling multi-dimensional arrays in image processing.  
   画像処理において多次元配列の操作が必要な数値計算のための基本パッケージ。
+  [Learn more about NumPy (Wikipedia)](https://en.wikipedia.org/wiki/NumPy)
 
 ---
 
@@ -171,58 +185,55 @@ These examples illustrate how image processing technology is being applied in va
 
 ---
 
-## Suggested Image Processing Projects for Raspberry Pi
+## Suggested Image Processing Projects for Raspberry Pi / Raspberry Pi における画像処理のためのプロジェクト提案
 
 Engaging in hands-on projects is an effective way to deepen your understanding of image processing with Raspberry Pi. Below are some recommended projects that students can undertake and replicate to enhance their learning experience:
 
-### 1. Basic Image Capture and Processing
+実践的なプロジェクトに取り組むことは、Raspberry Pi を使用した画像処理の理解を深める効果的な方法です。以下は、学生が取り組んで学習体験を向上させるために複製できる、お勧めのプロジェクトです。
 
-**Description:** Start by capturing images using a webcam connected to the Raspberry Pi. Then, apply basic image processing techniques such as altering brightness, contrast, or applying filters.
+### 1. Basic Image Capture and Processing / 基本的な画像撮影と処理
 
-**Resource:** [Basic Image Processing Tutorial](https://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/robot/image_processing/)
+**Description:** Start by capturing images using a webcam connected to the Raspberry Pi. Then, apply basic image processing techniques such as altering brightness, contrast, or applying filters. / Raspberry Pi に接続されたウェブカメラを使用して画像をキャプチャし、明るさ、コントラストの変更、フィルタの適用などの基本的な画像処理技術を適用します。
 
-### 2. Object Detection and Tracking
+**Resource:** [Basic Image Processing Tutorial](https://makersportal.com/blog/2019/4/21/image-processing-using-raspberry-pi-and-python)
 
-**Description:** Implement object detection algorithms to identify and track specific objects within a video stream. This project can be expanded to recognize various objects using pre-trained models.
+### 2. Object Detection and Tracking / 物体検出と追跡
 
-**Resource:** [Raspberry Pi based System for Visual Object Detection and Tracking](https://cse.mini-projects.in/image-processing-projects-using-raspberry-pi)
+**Description:** Implement object detection algorithms to identify and track specific objects within a video stream. This project can be expanded to recognize various objects using pre-trained models. / 特定の物体を識別し、ビデオストリーム内で追跡するための物体検出アルゴリズムを実装します。このプロジェクトは、事前学習済みモデルを使用してさまざまな物体を認識するように拡張できます。
 
-### 3. Face Recognition System
+**Resource:** [Raspberry Pi based System for Visual Object Detection and Tracking](https://github.com/automaticdai/rpi-object-detection)
 
-**Description:** Develop a face recognition system that can identify and verify individuals from a live video feed. This project introduces concepts of machine learning and computer vision.
+### 3. Face Recognition System / 顔認識システム
 
-**Resource:** [Accelerating Real-time Face Detection on a Raspberry Pi Telepresence Robot](https://cse.mini-projects.in/image-processing-projects-using-raspberry-pi)
+**Description:** Develop a face recognition system that can identify and verify individuals from a live video feed. This project introduces concepts of machine learning and computer vision. / ライブビデオフィードから個人を識別および検証できる顔認識システムを開発します。このプロジェクトは、機械学習とコンピュータビジョンの概念を紹介します。
 
-### 4. Lane Detection for Autonomous Driving
+**Resource:** [Accelerating Real-time Face Detection on a Raspberry Pi Telepresence Robot](https://github.com/michaelshiloh/telepresence)
 
-**Description:** Create a lane detection system using image processing techniques to identify road lanes, a fundamental aspect of autonomous vehicle navigation.
+### 4. Lane Detection for Autonomous Driving / 自動運転用のレーン検出
 
-**Resource:** [Image Processing using Raspberry Pi](https://forums.raspberrypi.com/viewtopic.php?t=81350)
+**Description:** Create a lane detection system using image processing techniques to identify road lanes, a fundamental aspect of autonomous vehicle navigation. / 自動車の自動運転の基本的な要素である道路車線を識別するために、画像処理技術を使用してレーン検出システムを作成します。
 
-### 5. Motion Following Robot
+**Resource:** [Image Processing using Raspberry Pi](https://www.instructables.com/Autonomous-Lane-Keeping-Car-Using-Raspberry-Pi-and/)
 
-**Description:** Build a robot that uses image processing to follow a moving object or person. This project combines robotics with real-time image analysis.
+### 5. Motion Following Robot / 物体追跡ロボット
 
-**Resource:** [It follows. (My first raspberry pi project, completely wireless, image processing)](https://www.reddit.com/r/raspberry_pi/comments/mytkyd/it_follows_my_first_raspberry_pi_project/)
+**Description:** Build a robot that uses image processing to follow a moving object or person. This project combines robotics with real-time image analysis. / 移動する物体や人物を追跡するために画像処理を使用するロボットを構築します。このプロジェクトは、ロボティクスとリアルタイム画像解析を組み合わせています。
 
-### 6. Lensless Computational Imaging
+**Resource:** [Object-Following-Robot](https://github.com/memr5/Object-Following-Robot)
 
-**Description:** Explore lensless imaging by constructing a hardware and software platform that captures images without traditional lenses, utilizing computational methods to reconstruct visuals.
+### 6. Lensless Computational Imaging / レンズレス計算画像
 
-**Resource:** [LenslessPiCam: A Hardware and Software Platform for Lensless Computational Imaging with a Raspberry Pi](https://arxiv.org/abs/2206.01430)
+**Description:** Explore lensless imaging by constructing a hardware and software platform that captures images without traditional lenses, utilizing computational methods to reconstruct visuals. / 従来のレンズを使用せずに画像をキャプチャし、計算手法を使用して視覚を再構築するハードウェアおよびソフトウェアプラットフォームを構築します。
 
-### 7. Artificial Eye for the Visually Impaired
+**Resource:** [LenslessPiCam: A Hardware and Software Platform for Lensless Computational Imaging with a Raspberry Pi](https://github.com/LCAV/LenslessPiCam?tab=readme-ov-file)
 
-**Description:** Develop a system that assists visually impaired individuals by detecting objects and reading text aloud using image processing and text-to-speech technologies.
+### 7. Artificial Eye for the Visually Impaired / 視覚障害者のための人工眼
+
+**Description:** Develop a system that assists visually impaired individuals by detecting objects and reading text aloud using image processing and text-to-speech technologies. / 画像処理とテキスト読み上げ技術を使用して、物体を検出し、テキストを音声で読み上げることで、視覚障害者を支援するシステムを開発します。
 
 **Resource:** [Artificial Eye for the Blind](https://arxiv.org/abs/2308.00801)
 
-These projects offer practical experience in applying image processing techniques using Raspberry Pi. By replicating and experimenting with these projects, students can gain valuable insights into real-world applications of image processing.
-
-
 ---
-
-
 
 This course aims to provide you with a solid foundation in both hardware (Raspberry Pi) and software (Python and image processing), empowering you to build innovative projects.  
 このコースは、ハードウェア（Raspberry Pi）とソフトウェア（Python および画像処理）の両面において、しっかりとした基礎を提供し、革新的なプロジェクトの構築を支援することを目指しています。
