@@ -145,7 +145,7 @@ In the manufacturing sector, image recognition technology significantly enhances
 
 製造業界では、画像認識技術が製品の精度向上に大きく貢献しています。製品の表面検査、部品の欠陥検出、組み立てラインでの誤差チェックなどに利用されています。
 
-[Read more / 詳しく読む](https://www.japancv.co.jp/column/10565/)
+[Read more / 詳しく読む](https://article.murata.com/en-global/article/what-is-machine-vision-the-eye-of-the-smart-factory)
 
 ### 2. Security and Surveillance / セキュリティと監視
 
@@ -153,7 +153,7 @@ Image recognition technology brings significant changes to the security field. F
 
 画像認識技術はセキュリティ分野で大きな変化をもたらしています。例えば、顔認識技術は空港のセキュリティチェック、銀行のATM、スマートフォンのロック解除などで採用されています。
 
-[Read more / 詳しく読む](https://www.japancv.co.jp/column/10565/)
+[Read more / 詳しく読む](https://viso.ai/applications/computer-vision-applications-in-surveillance-and-security/)
 
 ### 3. Autonomous Driving / 自動運転
 
@@ -161,7 +161,7 @@ In autonomous driving, image recognition is indispensable. It detects traffic si
 
 自動運転には画像認識が不可欠です。信号機や標識、歩行者などを検出し、事故の防止や渋滞緩和に貢献しています。
 
-[Read more / 詳しく読む](https://products.sint.co.jp/aisia-ad/blog/image-recognition-history-and-cases)
+[Read more / 詳しく読む](https://www.superannotate.com/blog/computer-vision-in-autonomous-vehicles)
 
 ### 4. Medical Field / 医療分野
 
@@ -169,7 +169,7 @@ In the medical field, image recognition is used to detect cancer cells. By combi
 
 医療分野では、画像認識ががん細胞の検出に使用されています。ディープラーニングに高精度な顕微鏡を組み合わせることで、人間の目では検知できない微細ながん細胞も自動で検出できます。
 
-[Read more / 詳しく読む](https://products.sint.co.jp/aisia-ad/blog/image-recognition-history-and-cases)
+[Read more / 詳しく読む](https://viso.ai/applications/computer-vision-in-healthcare/)
 
 ### 5. Agricultural Robots / 農業用ロボット
 
@@ -177,7 +177,7 @@ In agriculture, image recognition is utilized in robots that automatically disti
 
 農業では、画像認識が作物と雑草を自動で判別し、雑草だけを取り除いたり農薬を撒いたりするロボットに活用されています。
 
-[Read more / 詳しく読む](https://products.sint.co.jp/aisia-ad/blog/image-recognition-history-and-cases)
+[Read more / 詳しく読む](https://www.imveurope.com/feature/how-robots-machine-vision-are-revolutionising-farming)
 
 These examples illustrate how image processing technology is being applied in various fields to enhance efficiency and accuracy.
 
