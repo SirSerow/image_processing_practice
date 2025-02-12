@@ -105,6 +105,42 @@ Design an experiment to capture a series of images with varying exposure setting
 **日本語:**  
 異なる露出設定（例：シャッタースピードやISO値）を用いて、連続で画像を撮影する実験を設計してください。特に、低照度および高照度の条件下で、これらの設定が最終的な画像にどのように影響するかを記録しましょう。詳細なレポートとして結果を提出してください。
 
+**Problem 3 / 課題 3:** 
+**English:**
+Create a time-lapse video using the Raspberry Pi Camera. Experiment with different intervals between shots and durations to capture a visually appealing sequence. Share the final video and describe your process in a short write-up.
+
+**日本語:**
+Raspberry Pi カメラを使用してタイムラプスビデオを作成してください。撮影間隔や撮影時間などを変えて、視覚的に魅力的なシーケンスをキャプチャする実験を行ってください。最終的なビデオを共有し、簡単なライティングでプロセスを説明してください。
+
+**Problem 4 / 課題 4**
+**English:**
+Explore the use of image effects and filters available in the Raspberry Pi Camera settings. Capture the same scene with different effects applied and compare the results. Write a brief analysis of how these effects alter the appearance of the images.
+
+**日本語:**
+Raspberry Pi カメラの設定で利用可能な画像効果やフィルターを探求してください。異なる効果を適用して同じシーンを撮影し、結果を比較してください。これらの効果が画像の外観をどのように変えるかについて簡単な分析を行ってください。
+
+**Problem 5 / 課題 5**
+**English:**
+Experiment with the camera's white balance settings to understand how they affect color representation in images. Capture the same scene under different white balance modes and compare the results. Provide insights into the importance of white balance adjustments in photography.
+
+**日本語:**
+カメラのホワイトバランス設定を実験して、画像の色表現に与える影響を理解してください。異なるホワイトバランスモードで同じシーンを撮影し、結果を比較してください。写真撮影におけるホワイトバランス調整の重要性について洞察を提供してください。
+
+**Problem 6 / 課題 6**
+**English:**
+Capture a series of images in burst mode to freeze motion and capture action sequences. Experiment with different moving subjects and assess the camera's ability to capture fast-moving objects. Share your findings in a brief report.
+
+**日本語:**
+バーストモードで一連の画像をキャプチャして、動きをフリーズし、アクションシーケンスをキャプチャします。さまざまな動く被写体で実験し、カメラが高速移動するオブジェクトをキャプチャする能力を評価します。結果を簡単なレポートで共有してください。
+
+**Problem 7 / 課題 7**
+**English:**
+Record videos at different resolutions and frame rates to understand their impact on video quality and file size. Compare the videos to evaluate differences in quality, smoothness, and storage requirements.
+
+**日本語:**
+異なる解像度（例：720p、1080p）とフレームレート（例：30fps、60fps）でビデオを記録して、ビデオの品質とファイルサイズに与える影響を理解します。ビデオを比較して、品質、滑らかさ、およびストレージ要件の違いを評価します。
+
+
 ---
 
 ## Additional Resources / 追加リソース

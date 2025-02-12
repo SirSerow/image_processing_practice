@@ -115,6 +115,10 @@ Several Python libraries facilitate image processing tasks:
 For further reading and in-depth understanding, consider exploring the following resources:  
 さらに深く学びたい方は、以下のリソースも参考にしてください。
 
+- [Python tutorials on W3Schools (英語)](https://www.w3schools.com/python/)  
+  Interactive tutorials on Python programming for beginners.  
+  初心者向けの Python プログラミングに関するインタラクティブなチュートリアル。
+
 - [Raspberry Pi Documentation (英語)](https://www.raspberrypi.com/documentation/computers/getting-started.html)  
   Comprehensive guides and tutorials on setting up and using Raspberry Pi.  
   Raspberry Pi のセットアップや使用方法に関する包括的なガイドとチュートリアル。
