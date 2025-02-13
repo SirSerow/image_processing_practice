@@ -1,7 +1,6 @@
 import time
 from picamera2 import Picamera2, Preview
 from picamera2.encoders import H264Encoder
-from picamera2.outputs import FfmpegOutput
 import os
 
 
@@ -47,15 +46,12 @@ def record_video(picam2, directory, filename, duration):
     encoder = H264Encoder(
         bitrate=10000000
     )  # Set encoder with specified bitrate. 指定されたビットレートでエンコーダーを設定します。
-    output = FfmpegOutput(
-        filepath, audio=False
-    )  # Set output to file without audio. 音声なしでファイルに出力します。
 
     picam2.start_preview(
         Preview.NULL
     )  # Start the preview window. プレビューウィンドウを開始します。
     picam2.start_recording(
-        encoder, output
+        encoder, filepath
     )  # Start recording to the file. ファイルへの録画を開始します。
 
     time.sleep(
