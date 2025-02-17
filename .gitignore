@@ -204,3 +204,7 @@ pictures/
 videos/
 myenv/
 output/
+*.gif
+*.jpeg
+*.jpg
+
